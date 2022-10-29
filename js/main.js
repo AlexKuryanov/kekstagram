@@ -50,6 +50,26 @@ const MESSAGES = [
 
 const PHOTOS_COUNT = 25;
 
+const LikesCount = {
+  min: 15,
+  max: 200,
+}
+
+const CommentsCount = {
+  min: 1,
+  max: 5,
+}
+
+const RandomInterval = {
+  min: 1,
+  max: 300,
+}
+
+const AvatarCount = {
+  min: 1,
+  max: 6,
+}
+
 const getRandomNum = (min, max) => {
   min = Math.abs(min);
   max = Math.abs(max);
